@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descargar APK</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        a.download-link {
+            display: inline-block;
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 15px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        a.download-link:hover {
+            background-color: #0056b3;
+        }
+
+        .info-text {
+            margin-top: 20px;
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Descarga tu aplicación</h1>
+        <a href="app-debug.apk" class="download-link" download>Haz clic aquí para descargar la APK</a>
+        <div class="info-text">
+            <p>Este archivo es la versión de desarrollo de la aplicación. Asegúrate de tener habilitada la instalación de aplicaciones de fuentes desconocidas en tu dispositivo.</p>
+        </div>
+    </div>
+</body>
+</html>
